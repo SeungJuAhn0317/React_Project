@@ -1,0 +1,17 @@
+.patient {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.patient .patient-name {
+  flex-grow: 1;
+}
+
+.patient .patient-date {
+  margin-left: 20px;
+  color: red;
+}
