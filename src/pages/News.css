@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 1rem 2rem;
+  background: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: #ffff;
+}
+
+.header select {
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+}
+
+section {
+  padding: 1rem;
+}
+
+.contents  {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:3rem;
+}
+
+.contents .contents1 {
+  margin-top: 30px;
+  float:inherit;
+  display: flex;
+  height: 400%;
+  width:50%;
+}
+
+.contents .contents2 {
+  margin-top: 30px;
+  float:inherit;
+  display: flex;
+  height: 200%;
+  width:50%;
+}
+
+.contents .contents3 {
+  float:inherit;
+  display: flex;
+  height: 100%;
+  width:20%;
+}
+
+.img {
+  width: 100;
+  height: auto;
+  display: flex;
+  float: right;
+  align-items: center;
+}

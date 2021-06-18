@@ -10,8 +10,8 @@ const Patient = ({ patient, removePatient }) => {
                 </span>
             </div>
             <div>
-                <button onClick={() => removePatient(patient.id)}>
-                    삭제
+                <button onClick={() => removePatient(patient.id)}  class="btn btn-secondary btn-lg">
+                    퇴원
                 </button>
             </div>
         </div>

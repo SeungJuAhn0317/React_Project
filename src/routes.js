@@ -1,23 +1,24 @@
-import Users from './pages/Users';
-import User from './pages/User';
-import Home from './pages/Home';
+import React from "react";
 import Patients from './pages/Patients';
+import New from './pages/New';
+import News from './News';
+import Rules from './pages/Rules';
 
 export default [
     {
-        path: '/',
-        component: Home
+        path: '/Home',
+        component: News
     },
     {
-        path: '/patients',
+        path: '/Patients',
         component: Patients
     },
     {
-        path: '/users',
-        component: Users
+        path: '/New',
+        component: New
     },
     {
-        path: '/users/:id',
-        component: User
+        path: '/Rules',
+        component: Rules
     }
 ];

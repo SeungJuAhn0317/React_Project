@@ -1,13 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  text-align:center;
+  padding: 2%;
+}
+
 .patient {
+  width: 60%;
   display: flex;
   align-items: center;
   border: 1px solid gray;
   border-radius: 5px;
   padding: 5px;
-  margin-bottom: 5px;
+  margin: 5px auto;
 }
 
 .patient .patient-name {
+  margin-left: 20px;
+  font-size:150%;
   flex-grow: 1;
 }
 

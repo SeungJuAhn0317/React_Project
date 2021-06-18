@@ -14,6 +14,8 @@ const InputField = ({
                 value={value}
                 placeholder={placeholder}
                 onChange={onChange}
+                class="form-control" id="floatingInputGrid"
+
             /><br />
             <div style={{color: 'red'}}>{errorMessage}</div>
         </>
